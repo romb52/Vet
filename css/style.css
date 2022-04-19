@@ -1,3 +1,120 @@
 a {
 	color: red;
 }
+
+
+.aboutCompany, .results, .whyUs {
+	max-width: 1920px;
+	height: 1020px;
+	text-align: center;
+	display: flex;
+	flex-direction: column;
+	margin-left: 10px;
+	margin-right: 10px;
+}
+
+.aboutCompany {
+	background-color: #FBF8F8;
+	;
+}
+
+a, p {
+	font-size: 20px;
+}
+
+h2, h3 {
+	font-size: 40px;
+}
+
+a {
+	text-transform: capitalize;
+	color: #FFC59E;
+}
+
+.history h2 {
+	margin-top: 180px;
+}
+
+.history h2 p {
+	margin-top: 43px;
+}
+
+.history h2 p a {
+	margin-top: 36px;
+}
+
+.employees {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.employees h3{
+	margin-top: 100px;
+}
+
+.photosEmployees {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	max-width: 1453px;
+
+}
+
+.photosEmployees img {
+	height: 108px;
+	width: 108px;
+}
+
+.employees a{
+	margin-top: 36px;
+}
+
+
+.number {
+	color: #59443F;
+	font-size: 100px;
+	margin-top: 255px;
+	margin-bottom: 0px;
+}
+
+.results p:nth-child(2) {
+	font-size: 50px;
+}
+
+.results img {
+	width: 223px;
+	height: 288px;
+	
+}
+
+.containerResults {
+	display: flex;
+	flex-direction: column;
+}
+
+.reasons {
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	grid-gap: 10px;
+}
+
+.reasons div {
+
+}
+
+.reasons div div {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+.reasons img {
+	height: 68px;
+	width: 87px;
+	padding: 10px;
+}
+
+.reasons h4 {	
+	font-size: 30px;
+
+}
